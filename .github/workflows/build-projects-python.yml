@@ -18,7 +18,6 @@ jobs:
       - name: "Install Depdencies"
         run: |
           cd ${{matrix.project}}
-          pip install poetry
           poetry install
 
       - name: "Run App"
