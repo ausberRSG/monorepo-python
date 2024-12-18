@@ -24,4 +24,4 @@ jobs:
       - name: "Run App"
         run: |
           cd ${{matrix.project}}
-          poetry run py main.py
+          poetry run python main.py
